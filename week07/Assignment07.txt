@@ -1,0 +1,31 @@
+Reading: Prata Chapter 10 (focus on the sections describing pointers). Code Complete Section 11.9 "Fundamental Data Types: Pointers"
+
+
+
+Homework assignment: 
+
+Chapter 10, Review Question 4. What is the value of *ptr and *(ptr + 2) in each case?
+
+a.
+int* ptr;
+int torf[2][2] = {12, 14, 16};
+ptr = torf[0];
+
+b.
+int* ptr;
+int fort[2][2] = { {12}, {14, 16} };
+ptr = fort[0];
+
+Chapter 10, Programming Exercise 2. Write a program that initializes an array of double and then copies the contents of the array into two other arrays. (All three arrays should be declared in the main program.) To make the first copy, use a function with array notation. To make the second copy, use a function with pointer notation and pointer incrementing. Have each function take as arguments the name of the source array, the name of the target array, and the number of elements to be copied. That is, the function calls would look like this, given the following declarations
+
+double source[5] = {1.1, 2.2, 3.3, 4.4, 5.5};
+double target1[5];
+double target2[5];
+copy_arr(source, target1, 5);
+copy_ptr(source, target2, 5);
+
+Write the function void swap3a(int a, int b, int c) which copies the value for a into b, the value for b into c, and the value for c into a. Write the function void swap3b(int* a, int* b, int* c) which copies the value for a into b, the value for b into c, and the value for c into a. Write a main program which exercises swap3a() and swap3b. Explain the differences between swap3a and a swap3b.
+
+Write the function void myStrNCopy(char dest[], char source[], int count) which copies the string in source to the string in destination. Copy at most count characters from source to dest. (This is your version of the C standard library function strncpy()) Write a main program which exercises myStrNCopy(). 
+
+Homework Due: 11/15/2004

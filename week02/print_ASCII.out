@@ -1,0 +1,20 @@
+M:\week02>cl print_ASCII.c /TC /Za /Wall
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 13.10.3077 for 80x86
+Copyright (C) Microsoft Corporation 1984-2002. All rights reserved.
+
+print_ASCII.c
+print_ASCII.c(24) : warning C4242: '=' : conversion from 'int' to 'char', possib
+le loss of data
+Microsoft (R) Incremental Linker Version 7.10.3077
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:print_ASCII.exe
+print_ASCII.obj
+
+M:\week02>print_ASCII.exe
+
+Enter an ASCII value:  66
+
+Your ASCII value is assigned the character:  B
+
+M:\week02>

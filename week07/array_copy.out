@@ -1,0 +1,21 @@
+E:\week07>cl /TC /Za /Wall array_copy.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+array_copy.c
+C:\Program Files\Microsoft Visual Studio 8\VC\INCLUDE\stdio.h(360) : warning C42
+55: '_get_printf_count_output' : no function prototype given: converting '()' to
+ '(void)'
+Microsoft (R) Incremental Linker Version 8.00.50727.42
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:array_copy.exe
+array_copy.obj
+
+E:\week07>array_copy.exe
+Contents of target1 post-copy:
+        1.10    2.20    3.30    4.40    5.50
+
+Contents of target2 post-copy:
+        1.10    2.20    3.30    4.40    5.50
+E:\week07>

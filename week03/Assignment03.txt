@@ -1,0 +1,97 @@
+Reading: Chapter 6, Chapter 7 and Chapter 16 (pages 615 to 632 only). Code Complete Chapters 13 "Organizing Straight Line Code", 14 "Using Conditionals", 15 "Controlling Loops", and 17 "General Control Issues" (2nd ed Chapters 14, 15, 16, and 19).
+
+
+
+Extra credit homework assignment 1 (4 points):
+
+Write a program that prints the following pattern separately one below the other. Use for loops to generate the patterns. All asterisks (*) should be printed by a single printf statements of the form printf("*");, printf(" "); and printf("\n"). (this causes the asterisks to print side by side)
+
+ 
+             *
+            **
+           ***
+          ****
+         *****
+        ******
+       *******
+      ********
+     *********
+    **********
+
+
+
+Extra credit homework assignment 2 (4 points): 
+
+Calculate the value of pi from the infinite series
+
+pi = 4 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 + ...
+
+Print a table that show the value of pi approximated by one term of this series, by two terms, by three terms, etc. How many terms of this series do you have to use before you first get 3.14? 3.141? 3.1415? 3.14159?
+
+
+
+Homework assignment:
+
+Chapter 6, Programming Exercise 3. Use nested loops to produce the following pattern:
+
+    F
+    FE
+    FED
+    FEDC
+    FEDCB
+    FEDCBA
+
+
+
+Chapter 6, Programming Exercise 5. Write a program that prints a table with each line giving an integer, its square, and its cube, Ask the user to input the lower and upper limits for the table. Use a for loop.
+
+
+
+Chapter 7, Review Question 2. Construct an expression to express the following conditions:
+
+a. number is equal to or greater than 1 but smaller than 9.
+
+b. ch is not a q or a k character.
+
+c. number is between 1 and 9 but is not a 5.
+
+d. number is not between 1 and 9.
+
+
+
+Chapter 7, Review Question 4. What is the numerical value of each of the following expressions?
+
+a. 5 > 2
+
+b. 3 + 4 > 2 && 3 < 2
+
+c. x >= y || y > x
+
+d. d = 5 + (6 > 2)
+
+e. 'X' > 'T' ? 10 : 5
+
+f. x > y ? y > x : x > y
+
+
+
+Chapter 7, Programming Exercise 7. Write a program that requests the hours worked in a week and then prints the gross pay, the taxes, and the net pay. Assume the following:
+
+a. Base pay rate = $10.00/hr
+
+b. Overtime (in excess of 40 hours) = time and a half
+
+c. Tax rate:
+
+15% of the first $300
+
+20% of the next $150
+
+25% of the rest
+
+Use #define constants, and don't worry if the example does not conform to current tax law.
+
+
+
+Homework due: 10/18/2004
+

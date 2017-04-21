@@ -1,0 +1,25 @@
+Reading: Prata - Chapter 1 and Chapter 2
+         Code Complete 1st ed, Chapter 31, “Personal Character” (2nd ed Chapter 33)
+
+Class Example: love.c
+
+Homework assignment:
+
+Chapter 1, Programming Exercise 1. You have just been employed by MacroMuscle, Inc. (Software for Hard Bodies). They are entering the European market and want a program that converts inches to centimeters (1" = 2.54 cm). They want the program set up so that it prompts the user to enter an inch value. Your assignment is to define the program objectives and to design the program (steps 1 and 2 of the programming process).
+
+Chapter 2, Programming Exercise 1. Write a program that uses one printf() call to print your first name and last name on one line, uses a second printf() call to print your first and last name on two separate lines, and uses a pair of printf() calls to print your first and last name on one line. The output should look like this (but using your name). 
+
+Mae West
+ First print statement
+Mae
+ Second print statement
+West
+ Still the second print statement
+Mae West
+ Third and fourth print statements
+
+Chapter 2, Programming Exercise 3. Write a program that converts your age in years to days and displays both values. At this point, don't worry about fractional years and leap years.
+
+Chapter 2, Programming Exercise 5. Write a program that creates an integer variable called toes. Have the program set toes to 10. Also have the program calculate what twice toes is and what toes squared is. The program should print all three values, identifying them.
+
+Homework due: 10/4/2004

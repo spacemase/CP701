@@ -1,0 +1,31 @@
+E:\week07>cl /TC /Za /Wall swap3.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+swap3.c
+C:\Program Files\Microsoft Visual Studio 8\VC\INCLUDE\stdio.h(360) : warning C42
+55: '_get_printf_count_output' : no function prototype given: converting '()' to
+ '(void)'
+Microsoft (R) Incremental Linker Version 8.00.50727.42
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:swap3.exe
+swap3.obj
+
+E:\week07>swap3.exe
+Initial values:
+        i = 0
+        j = 1
+        k = 2
+
+Values after swap3a:
+        i = 0
+        j = 1
+        k = 2
+
+Values after swap3b:
+        i = 2
+        j = 0
+        k = 1
+
+E:\week07>

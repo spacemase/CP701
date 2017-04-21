@@ -1,0 +1,25 @@
+N:\week04>cl /TC /Za /Wall harmonic_mean.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 13.10.3077 for 80x86
+Copyright (C) Microsoft Corporation 1984-2002. All rights reserved.
+
+harmonic_mean.c
+Microsoft (R) Incremental Linker Version 7.10.3077
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:harmonic_mean.exe
+harmonic_mean.obj
+
+N:\week04>harmonic_mean.exe
+Please enter two non-zero numbers:  1 2
+The harmonic mean of your numbers is:  1.333333
+
+N:\week04>harmonic_mean.exe
+Please enter two non-zero numbers:  0 1
+Please enter two non-zero numbers:  5 7
+The harmonic mean of your numbers is:  5.833333
+
+N:\week04>harmonic_mean.exe
+Please enter two non-zero numbers:  3.14159 2.718
+The harmonic mean of your numbers is:  2.914484
+
+N:\week04>

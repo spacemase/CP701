@@ -1,0 +1,18 @@
+M:\week01>cl toes.c /Za /TC /Wall
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 13.10.3077 for 80x86
+Copyright (C) Microsoft Corporation 1984-2002. All rights reserved.
+
+toes.c
+Microsoft (R) Incremental Linker Version 7.10.3077
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:toes.exe
+toes.obj
+
+M:\week01>toes
+
+Toes is equal to:  10
+Twice toes is equal to:  20
+Toes squared is equal to:  100
+
+M:\week01>

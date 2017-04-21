@@ -1,0 +1,64 @@
+Reading: Prata Chapter 10 (focus on the sections describing arrays). Code Complete Chapter 11 "Fundamental Data Types" 11.1 "Numbers in General", 11.2 "Integers", 11.3 "Floating Point Numbers" 11.5 "Boolean Variables", 11.7 "Named Constants", and 18 "Layout and Style" (2nd ed Chapters 12, 31)
+
+Homework assignment: 
+
+Chapter 10, Review Question 7. Create an appropriate declaration for each of the following variables:
+
+a. digits is an array of ten ints
+
+b. rates is an array of six floats
+
+c. mat is an array of three arrays of five integers
+
+d. psa is an array of 20 pointers to char
+
+e. pstr is a pointer to an array of 20 chars
+
+Chapter 10, Review Question 8.
+
+a. Declare an array of six ints and initialize it to the values 1, 2, 4, 8, 16, and 32.
+
+b. Use array notation to represent the third element (the one with the value 4) of the array in part a.
+
+Chapter 10, Programming Exercise 4. Write a function that returns the index of the largest value stored in an array of double. Test the function in a simple program.
+
+Chapter 10, Programming Exercise 9. Write a function that sets each element in an array to the sum of the corresponding elements in two other arrays. that is, if array 1 has the values 2, 4, 5, and 8 and array 2 has the values 1, 0, 4, and 6, the function assigns array 3 the values 3, 4, 9, and 14. The function should take three array names and an array size as arguments. Test the function in a simple program.
+
+Extra credit homework assignment (6 points):
+
+Implement a stack data structure for storing double precision numbers. Build the stack using these pieces:
+
+#define STACK_MAX 256      /* maximum numbers that may be on the
+
+                           ** stack at any one time */
+
+ 
+
+double stack[STACK_MAX];   /* global array used to build the stack */
+
+ 
+
+int currentStackIndex = 0; /* global index of current top of the stack */
+
+ 
+
+void push(double);         /* function prototype for function to push a
+
+                           ** value onto the stack */
+
+ 
+
+double pop();              /* function prototype for function to pop
+
+                           ** a value off the stack */
+
+ 
+
+void printStack();         /* function prototype for function to print all
+
+                           ** the values currently on the stack */
+
+Your assignment is to implement push(), pop(), and printStack(). Write a main program that tests the stack. Your implementation must handle the case when pop() is called on an empty stack, and when push is called on a full stack.
+
+Homework Due: 11/8/2004
+

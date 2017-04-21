@@ -1,0 +1,57 @@
+N:\week03>cl powers.c /TC /Za /Wall
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 13.10.3077 for 80x86
+Copyright (C) Microsoft Corporation 1984-2002. All rights reserved.
+
+powers.c
+Microsoft (R) Incremental Linker Version 7.10.3077
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:powers.exe
+powers.obj
+
+N:\week03>powers
+
+Please enter the lower bound for the table:  -1
+Please enter a non-negative integer less than 1291:  0
+Please enter the upper bound for the table:  -1
+Please enter an upper bound between 0 and 1290:  0
+
+Powers table from 0 to 0:
+
+   i    i^2     i^3
+--------------------------------
+   0    0       0
+
+N:\week03>powers
+
+Please enter the lower bound for the table:  1
+Please enter the upper bound for the table:  10
+
+Powers table from 1 to 10:
+
+   i    i^2     i^3
+--------------------------------
+   1    1       1
+   2    4       8
+   3    9       27
+   4    16      64
+   5    25      125
+   6    36      216
+   7    49      343
+   8    64      512
+   9    81      729
+   10   100     1000
+
+N:\week03>powers
+
+Please enter the lower bound for the table:  1290
+Please enter the upper bound for the table:  1291
+Please enter an upper bound between 1290 and 1290:  1290
+
+Powers table from 1290 to 1290:
+
+   i    i^2     i^3
+--------------------------------
+   1290 1664100 2146689000
+
+N:\week03>

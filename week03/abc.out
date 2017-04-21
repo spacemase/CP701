@@ -1,0 +1,23 @@
+N:\week03>cl abc.c /TC /Za /Wall
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 13.10.3077 for 80x86
+Copyright (C) Microsoft Corporation 1984-2002. All rights reserved.
+
+abc.c
+abc.c(33) : warning C4244: '=' : conversion from 'int' to 'char', possible loss
+of data
+Microsoft (R) Incremental Linker Version 7.10.3077
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:abc.exe
+abc.obj
+
+N:\week03>abc
+
+        F
+        FE
+        FED
+        FEDC
+        FEDCB
+        FEDCBA
+
+N:\week03>

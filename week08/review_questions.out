@@ -1,0 +1,34 @@
+Mason Jensen
+12/12/2006
+
+
+
+Chapter 4, Review Question 5. Suppose a program starts like this:
+
+    #define BOOK "War and Peace"
+    int main(void)
+    {
+         float cost = 12.99;
+         float percent = 80.0;
+Construct a printf() program that uses BOOK, cost, and percent to print the following:
+
+This copy of "War and Peace" sells for $12.99.
+That is 80% of list.
+
+==>   printf("This copy of \"%s\" sells for $%0.2f.\n", BOOK, cost);
+==>   printf("That is %0.0f\x025 of list.\n", percent);
+
+
+
+Chapter 8, Review Question 1. putchar(getchar()) is a valid expression; what does it do? Is getchar(putchar()) also valid?
+
+==>   It prints each character entered by user.  The second is not valid since putchar needs a character input to the function.
+
+
+
+Chapter 8, Review Question 8. What potential problem do you face when intermixing numeric input with character input on a buffered system?
+
+==>   The problem is that character inputs have a different value from numeric input.  The system cannot tell whether you intend a character or a numeric value with a digit is input.
+
+
+

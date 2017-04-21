@@ -1,0 +1,21 @@
+M:\week01>cl print_name.c /Za /TC /Wall
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 13.10.3077 for 80x86
+Copyright (C) Microsoft Corporation 1984-2002. All rights reserved.
+
+print_name.c
+Microsoft (R) Incremental Linker Version 7.10.3077
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:print_name.exe
+print_name.obj
+
+M:\week01>print_name
+
+mason jensen
+
+mason
+jensen
+
+mason jensen
+
+M:\week01>

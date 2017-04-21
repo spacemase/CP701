@@ -1,0 +1,35 @@
+Mason Jensen
+11/08/2006
+
+
+
+Chapter 10, Review Question 7:  Create an appropriate declaration for each of the following 
+variables.
+
+a. digits is an array of ten ints
+=> int digits[10];
+
+b. rates is an array of six floats
+=> float rates[6];
+
+c. mat is an array of three arrays of five integers
+=> int mat[3][5];
+
+d. psa is an array of 20 pointers to char
+=> char* psa[20];
+
+e. pstr is a pointer to an array of 20 chars
+=> char pstr[20];
+
+
+
+Chapter 10, Review Question 8.
+
+a. Declare an array of six ints and initialize it to the values 1, 2, 4, 8, 16, and 32.
+=> int foo[6] = {1, 2, 4, 8, 16, 32};
+
+b. Use array notation to represent the third element (the one with the value 4) of the array 
+in part a.
+=> foo[2]
+
+

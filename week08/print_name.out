@@ -1,0 +1,25 @@
+G:\week08>cl /Wall /TC /Za print_name.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+print_name.c
+D:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE\stdio.h(360) : warni
+ng C4255: '_get_printf_count_output' : no function prototype given: converting '
+()' to '(void)'
+print_name.c(25) : warning C4996: 'scanf' was declared deprecated
+        D:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE\stdio.h(295)
+ : see declaration of 'scanf'
+        Message: 'This function or variable may be unsafe. Consider using scanf_
+s instead. To disable deprecation, use _CRT_SECURE_NO_DEPRECATE. See online help
+ for details.'
+g:\week08\print_name.c(25) : warning C4700: uninitialized local variable 'name'
+used
+Microsoft (R) Incremental Linker Version 8.00.50727.42
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:print_name.exe
+print_name.obj
+
+G:\week08>print_name.exe
+Please enter your name:
+G:\week08>mason

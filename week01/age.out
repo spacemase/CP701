@@ -1,0 +1,18 @@
+M:\week01>cl age.c /Za /TC /Wall
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 13.10.3077 for 80x86
+Copyright (C) Microsoft Corporation 1984-2002. All rights reserved.
+
+age.c
+Microsoft (R) Incremental Linker Version 7.10.3077
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:age.exe
+age.obj
+
+M:\week01>age
+
+Enter your age in years:  30
+
+At 30 years, you are 10920 days old!!!
+
+M:\week01>

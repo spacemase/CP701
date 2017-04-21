@@ -1,0 +1,62 @@
+E:\week06>cl /Za /TC /Wall array_sum.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+array_sum.c
+C:\Program Files\Microsoft Visual Studio 8\VC\INCLUDE\stdio.h(360) : warning C42
+55: '_get_printf_count_output' : no function prototype given: converting '()' to
+ '(void)'
+Microsoft (R) Incremental Linker Version 8.00.50727.42
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:array_sum.exe
+array_sum.obj
+
+E:\week06>array_sum.exe
+===== Test array1 + array2 =====
+PASS at index0
+PASS at index1
+PASS at index2
+PASS at index3
+PASS at index4
+PASS at index5
+PASS at index6
+PASS at index7
+===== Test array1 + array3 =====
+PASS at index0
+PASS at index1
+PASS at index2
+PASS at index3
+PASS at index4
+PASS at index5
+PASS at index6
+PASS at index7
+===== Test array1 + array4 =====
+PASS at index0
+PASS at index1
+PASS at index2
+PASS at index3
+PASS at index4
+PASS at index5
+PASS at index6
+PASS at index7
+===== Test array1 + array5 =====
+PASS at index0
+PASS at index1
+PASS at index2
+PASS at index3
+PASS at index4
+PASS at index5
+PASS at index6
+PASS at index7
+===== Test array1 + array6 =====
+PASS at index0
+PASS at index1
+PASS at index2
+PASS at index3
+PASS at index4
+PASS at index5
+PASS at index6
+PASS at index7
+
+E:\week06>

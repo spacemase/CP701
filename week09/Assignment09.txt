@@ -1,0 +1,7 @@
+Reading: Code Complete Chapters 23 "The Software Quality Landscape" and 24 "Reviews" (2nd ed Chapters 20, 21)
+
+Source .c and .h files for multi-file compilation example shown in class:
+
+main.c printText.c globals.c globals.h printText.h
+
+Homework assignment: None

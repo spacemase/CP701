@@ -1,0 +1,7 @@
+Reading: Code Complete Preface, Chapters 1 "Welcome to Software Construction", 2 "Metaphors for a Richer Understanding of Programming", and 3 "Prerequisites to Contruction" (2nd ed Chapters 1, 2, and 3)
+
+Midterm: Will cover development process (edit, preprocess, compile, link, load, execute), data types, operands, precedence, control structures, preprocessor, functions, function arguments, function variable lifetimes.
+
+Lecture notes: None.
+
+Homework assignment: None

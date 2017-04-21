@@ -1,0 +1,69 @@
+Chapter 3, Review Question 1. Which data type would you use for each of the following kinds of data? Include an explanation for each choice you make.
+
+a) The population of Rio Frito.
+
+
+
+b) The average weight of a Rembrandt painting.
+
+
+
+c) The most common letter in this chapter
+
+
+
+d) The number of times that letter occurs in this chapter.
+
+
+
+
+
+Chapter 3, Review Question 2. Why would you use a type long variable instead of type int?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapter 3, Review Question 6. Identify the data type (as used in declaration statements) and the printf() format specifier for each of the following constants:
+
+a) 12
+
+b) 0X3
+
+c) 'C'
+
+d) 2.34E07
+
+e) '\040'
+
+f) 7.0
+
+g) 6L
+
+h) 6.0f
+
+
+
+
+
+Chapter 5, Review Question 1. Assume all variables are of type int. Find the value of each of the following variables:
+
+a) x = (2 + 3) * 6;
+
+b) x = (12 + 6)/2*3;
+
+c) y = x = (2 + 3) / 4;
+
+d) y = 3 + 2*(x = 7 / 2);
+
+
